@@ -7,7 +7,7 @@ import networkx as nx
 from scipy.interpolate import splprep, splev
 
 # === 1. Wczytaj model aorty (.vtp)
-mesh = pv.read(r"your path here")
+mesh = pv.read(r"your path here") #your path here
 
 # === 2. Ustaw rozdzielczość voxelizacji
 voxel_size = 0.1  # mm
